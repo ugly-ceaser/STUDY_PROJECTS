@@ -1,0 +1,426 @@
+   *{box-sizing: border-box;}
+
+body{
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	color: black;
+}
+
+@font-face {
+	font-family:Fresh_lychee ;
+	src: url("font/Fresh_lychee.ttf");
+}
+@font-face {
+	font-family: BaltimoreTypewriterBold_Beveled;
+	src: url("font/BaltimoreTypewriterBold_Beveled.ttf");
+}
+@font-face {
+	font-family:Impact_Label_Reversed;
+	src: url("font/Impact_Label_Reversed.ttf");
+
+
+}
+
+   body h1 {
+	   font-family: Fresh_lychee;
+   }
+
+.FirstBox{
+	background-color: white;
+	width: 100%;
+	height: 88px;
+	float: left;
+}
+.firsta{
+	position:relative;
+	left:150px;
+	width:300px;
+	top: 1px;
+	/*border:1px black solid;*/
+	text-align: center;
+
+
+}
+.firstb{
+	position:absolute;
+	right:150px;
+	top: 15px;
+	width:300px;
+	/*border:1px black solid;*/
+	text-align: center;
+
+}
+
+.firstc{
+	position:relative;
+	left:150px;
+	width:299px;
+	/*border:1px black solid;*/
+	text-align: center;
+
+}
+
+.FirstBox a{
+	text-decoration: none;
+	color:#2a4aff ;
+	font-family: Impact_Label_Reversed;
+	font-weight: lighter;
+	font-size: 18 px;
+
+}
+
+.secondBox{
+	position: relative;
+	top: 45px;
+	width: 100%;
+	height: 620px;
+	
+	/*border:2px solid red;*/
+
+}
+.secondBox::before {
+	/*background-color: tomato;*/
+	content: "";
+	background-image: url(img/SecondBox.JPG);
+	/*background-position: center;*/
+	background-size: cover; 
+	background-position: center;
+
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	opacity: 0.65;
+  
+}
+.push{
+	/*border:2px solid black;
+	background-color: tomato;
+	width: 40%;
+	height:70%;
+	*/
+	left: 70%;
+	position: relative;
+	padding: 15px;
+	top: 20px;
+	width: 30%;
+	color: #2a4aff;
+	-webkit-transition: 3s ease-in-out;
+	transition: 3s ease-in-out;
+	-webkit-transform: scale(0.9);
+	-moz-transform: scale(0.9);
+
+}
+
+.push:hover{
+
+	-webkit-transform: scale(0.98);
+	-moz-transform: scale(0.98);
+}
+
+
+.ThirdBox{
+	/*background-color: tomato;*/
+	position: relative;
+	top:45px;
+	
+	width: 100%;
+	height: 700px;
+	/*border:2px solid black;*/
+	
+
+
+	/*background-image: url(img/ThirdBox.JPG);
+	background-position: center;
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;*/
+}
+
+.flx1{
+	position: relative;
+	width: 100%;
+	height: 10%;
+	text-align: center;
+	color: #2A4AFF;
+	/*left: 450px;*/
+	/*border:1px solid black ;
+	background-color: tomato;*/
+
+	
+}
+
+.flx1 h1{
+	position: relative;
+	margin-top: 0px;
+	width: auto;
+	height: 25px;
+	top: 0.4em;
+	font-family: fresh_lychee;
+	/*left: 38%;*/
+}
+.flx1 img{
+	position: relative;
+	margin-top: 0px;
+	width: auto;
+	height: 30px;
+	top: 7%;
+	/*left: 50%;*/
+}
+
+.flx2{
+	width: 100%;
+	height: 10%;
+	text-align: center;
+	color: #2A4AFF;
+	/*left: 450px;*/
+	/*border:1px solid black ;
+	background-color: gold;*/
+	
+}
+.place{
+	/*background-color: pink;*/
+	width: 100%;
+	height: 70%;
+	float: left;
+}
+
+.flx3{
+	width: 33.2%;
+	text-align: center;
+	/*left: 450px;*/
+	/*border:1px solid black ;
+	background-color: tomato;*/
+	height: 79.5%;
+	position:absolute;
+	right:66.67%;
+	top: 20.5%;
+	text-align: center;
+
+	color: #2A4AFF;
+}
+
+.imgpad{
+
+	width: 65%;
+	border:1px solid #2A4AFF;
+
+	height: 40%;
+
+	padding-top: 20%;
+
+	border-radius: 50%;
+
+	margin-left:18%; 
+
+	background-color: #2A4AFF;
+	/*background-color: white;*/
+}
+
+.imgpads{
+
+background-color: white;
+padding-top: 15%;
+}
+
+.flx4{
+	width: 33.2%;
+	text-align: center;
+	/*left: 450px;*/
+	/*border:1px solid black ;
+	background-color: tomato;*/
+	height: 79.5%;
+	position:absolute;
+	right:33.3%;
+	top: 20.5%;
+	text-align: center;
+
+	color: #2A4AFF;
+	}
+
+
+.flx5{
+	width: 33.2%;
+	text-align: center;
+	/*left: 450px;*/
+	/*border:1px solid black ;
+	background-color: tomato;*/
+	height: 79.5%;
+	position:absolute;
+	right:0%;
+	top: 20.5%;
+	text-align: center;
+	color: #2A4AFF;
+}
+.FourthBox{
+	/*background-color: tomato;*/
+	position: relative;
+	top:45px;
+	width: 100%;
+	height: 550px;
+	background-size:cover;
+	background-image: url(img/ThirdBox.JPG);
+	
+	/*background-image: url(img/ThirdBox.JPG);
+	background-position: center;
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;*/
+}
+
+.FourthBox::before {
+	/*background-color: tomato;*/
+	content: "";
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	background-color: black;
+	
+	
+	opacity: 0.55; 
+	
+}
+
+.push2{
+	top:15px;
+	color: white;
+	text-align: left;
+	width: 40%;
+	left: 50%;
+}
+
+.pic{
+	position: absolute;
+	/*border:5px solid black;*/
+	height: 90%;
+	width: 35%;
+	top:1px;
+	color: white;
+	text-align: left;
+	right: 45%;
+	background-image: url(img/btc.png);
+	background-size: cover;
+	justify-content:center;
+	background-position:center;
+
+
+}
+
+
+	
+.FiftBox{
+	/*background-color: tomato;*/
+	position: relative;
+	top:45px;
+	width: 100%;
+	height: 550px;
+	text-align:center;
+	/*background-color:purple;*/
+	/*border:2px solid black;*/
+	
+	/*background-image: url(img/ThirdBox.JPG);
+	background-position: center;
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;*/
+}
+
+.testi{
+	text-align:center;
+}
+.profile{
+	width:100px;
+	height:100px;
+	border:1px solid #a73939;
+	position: absolute;
+	right: 46.45%;
+	border-radius: 50%;
+	background-image: url("img/profile.png");
+	background-position: center;
+	background-size: cover;
+
+
+	
+}
+.footer{
+	/*background-color: tomato;*/
+	position: relative;
+	top:45px;
+	width: 100%;
+	height: 20px;
+	background-color: rgba(0,0,0, 0.4);
+	
+	/*background-image: url(img/ThirdBox.JPG);
+	background-position: center;
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;*/
+}
+
+@media only screen and (max-width: 600px) {
+	.FirstBox{
+		width: 599px;
+		height: auto;
+
+	}
+
+	.firsta{
+		width:30px;
+
+
+
+	}
+	.firstb{
+		width:30px;
+
+	}
+
+	.firstc{
+
+		width:29px;
+		
+
+	}
+
+	.FirstBox a{
+		font-size: 5 px;
+
+	}
+
+	.FourthBox{
+		/*background-color: tomato;*/
+		position: relative;
+		top:45px;
+		width: 599px;
+
+		/*background-image: url(img/ThirdBox.JPG);
+        background-position: center;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;*/
+	}
+
+
+
+	.push2{
+
+		width: 60%;
+		left: 40%;
+
+	}
+
+	.pic{
+
+		/*border:5px solid black;*/
+		width: 15%;
+		display: none;
+
+
+
+	}
+}
+
+
+
+
+
